@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://calldirectorai.github.io/dcta-dmv-home/sitemap.xml
+Sitemap: https://dctadmv.com/sitemap.xml

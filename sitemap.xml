@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://calldirectorai.github.io/dcta-dmv-home/program-html/</loc>
-    <lastmod>2026-10-12T18:36:09.325Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://calldirectorai.github.io/dcta-dmv-home/</loc>
-    <lastmod>2026-10-12T18:32:58.045Z</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
+  <url><loc>https://dctadmv.com/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://dctadmv.com/program.html</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://dctadmv.com/schedule.html</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://dctadmv.com/enroll.html</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://dctadmv.com/faq.html</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://dctadmv.com/about.html</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://dctadmv.com/contact.html</loc><lastmod>2026-10-12</lastmod></url>
 </urlset>
