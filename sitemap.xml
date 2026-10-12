@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://calldirectorai.github.io/dcta-dmv-home/program/</loc>
+    <lastmod>2026-10-12T18:35:54.561Z</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://calldirectorai.github.io/dcta-dmv-home/</loc>
-    <lastmod>2026-10-12T18:32:45.822Z</lastmod>
+    <lastmod>2026-10-12T18:32:58.045Z</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
