@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Request a Tour | Data Center Tech Academy DMV, Gaithersburg MD</title>
-<meta name="description" content="Request a tour of Data Center Tech Academy DMV in Gaithersburg, MD. Tours are by appointment only: Monday afternoons and Friday afternoons by request.">
+<title>Request a Visit | Data Center Tech Academy DMV, Gaithersburg MD</title>
+<meta name="description" content="Request a visit to Data Center Tech Academy DMV in Gaithersburg, MD. Visits are by arrangement only: send your details and our team will reach out to set your visit date and time.">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="https://dctadmv.com/tour">
 <meta name="theme-color" content="#0A1424">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Data Center Tech Academy DMV">
-<meta property="og:title" content="Request a Tour | Data Center Tech Academy DMV, Gaithersburg MD">
-<meta property="og:description" content="Request a tour of Data Center Tech Academy DMV in Gaithersburg, MD. Tours are by appointment only: Monday afternoons and Friday afternoons by request.">
+<meta property="og:title" content="Request a Visit | Data Center Tech Academy DMV, Gaithersburg MD">
+<meta property="og:description" content="Request a visit to Data Center Tech Academy DMV in Gaithersburg, MD. Visits are by arrangement only: send your details and our team will reach out to set your visit date and time.">
 <meta property="og:url" content="https://dctadmv.com/tour">
 <meta property="og:image" content="https://dctadmv.com/assets/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -57,38 +57,33 @@
 <section class="page-hero">
   <div class="container">
     <div class="eyebrow on-dark">Visit the school</div>
-    <h1>Request a tour.</h1>
-    <p>See the hands-on lab, meet the team and ask your questions. Tours are by appointment only.</p>
-    <div class="crumbs"><a href="/">Home</a> / <span>Request a tour</span></div>
+    <h1>Request a visit.</h1>
+    <p>See the hands-on lab, meet the team and ask your questions. Visits are by arrangement only.</p>
+    <div class="crumbs"><a href="/">Home</a> / <span>Request a visit</span></div>
   </div>
 </section>
 <section class="section">
   <div class="container" style="max-width:760px">
     <div class="form-card reveal">
-      <h2 style="font-size:26px;margin-bottom:6px">Pick the day that works</h2>
-      <p style="color:var(--t-muted);margin-bottom:24px"><b>Monday afternoons</b> have two 30-minute openings (1:00 PM and 1:30 PM). <b>Friday afternoons</b> are by appointment, subject to availability. We will confirm your exact time within one business day.</p>
-      <form data-lead-form data-source="tour" action="https://app.calldirector.ai/api/webhooks/flow/6903/6b9a25258d04bc88c1bd41384521ce22285a9c234150206e236392630fe64dd9" method="post" novalidate>
-        <div class="field"><label for="tn">Full name <span class="req">*</span></label><input id="tn" type="text" name="fullName" autocomplete="name" required></div>
+      <h2 style="font-size:26px;margin-bottom:6px">Request a visit</h2>
+      <p style="color:var(--t-muted);margin-bottom:24px">Visits are by arrangement only. Send your details and someone from DCTA DMV will reach out to set up your visit date and time. You will get a text and an email confirming your request.</p>
+      <form data-lead-form data-visit-form data-source="tour" action="https://app.calldirector.ai/api/webhooks/flow/6903/6b9a25258d04bc88c1bd41384521ce22285a9c234150206e236392630fe64dd9" method="post" novalidate>
+        <div class="field"><label for="tn">Full name <span class="req">*</span></label><input id="tn" type="text" name="fullName" autocomplete="name" required maxlength="80"></div>
         <div class="form-row">
-          <div class="field"><label for="te">Email <span class="req">*</span></label><input id="te" type="email" name="email" autocomplete="email" required></div>
-          <div class="field"><label for="tp">Phone <span class="req">*</span></label><input id="tp" type="tel" name="phone" autocomplete="tel" required></div>
+          <div class="field"><label for="te">Email <span class="req">*</span></label><input id="te" type="email" name="email" autocomplete="email" required maxlength="120"></div>
+          <div class="field"><label for="tp">Phone <span class="req">*</span></label><input id="tp" type="tel" name="phone" autocomplete="tel" required pattern="[\d\s\(\)\+\.\-]{10,20}"></div>
         </div>
-        <div class="field"><label for="td">Preferred day <span class="req">*</span></label>
-          <select id="td" name="classChoice" required>
-            <option>Monday afternoon (1:00 PM or 1:30 PM)</option>
-            <option>Friday afternoon (subject to availability)</option>
-          </select>
-        </div>
-        <div class="field"><label for="tm">Anything we should know? (optional)</label><textarea id="tm" name="message" placeholder="Morning class, evening class or one-on-one? Questions for us?"></textarea></div>
-        <div class="field"><label class="checkbox"><input type="checkbox" name="consent" required><span>I agree to be contacted by Data Center Tech Academy DMV by phone, text or email about my tour. Message and data rates may apply. Reply STOP to opt out of texts.</span></label></div>
-        <button type="submit" class="btn btn-primary btn-lg" style="width:100%">Request my tour</button>
-        <p class="form-note">No charge. Prefer to talk? Call or text <a href="tel:+13019006630" style="color:var(--blue);font-weight:600">(301) 900-6630</a>. Want to pick a Monday time yourself? <a href="https://app.calldirector.ai/book/dcta-dmv-consultation" target="_blank" rel="noopener" style="color:var(--blue);font-weight:600">Use the live calendar</a> (it may load slowly).</p>
+        <div class="field" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden"><label for="tw">Website</label><input id="tw" type="text" name="website" tabindex="-1" autocomplete="off"></div>
+        <div class="field"><label for="tm">Anything we should know? (optional)</label><textarea id="tm" name="message" maxlength="600" placeholder="Morning class, evening class or one-on-one? Questions for us?"></textarea></div>
+        <div class="field"><label class="checkbox"><input type="checkbox" name="consent" required><span>I agree to be contacted by Data Center Tech Academy DMV by phone, text or email about my visit. Message and data rates may apply. Reply STOP to opt out of texts.</span></label></div>
+        <button type="submit" class="btn btn-primary btn-lg" style="width:100%">Request my visit</button>
+        <p class="form-note">No charge. Prefer to talk? Call or text <a href="tel:+13019006630" style="color:var(--blue);font-weight:600">(301) 900-6630</a>. We never share your details.</p>
         <p class="form-error" role="alert" hidden></p>
       </form>
       <div class="form-success">
         <div class="fs-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="m20 6-11 11-5-5"/></svg></div>
-        <h2 style="font-size:24px;margin-bottom:10px">Tour request received!</h2>
-        <p style="color:var(--t-muted)">Thanks! We will contact you within one business day to confirm your time. Need us sooner? Call <a href="tel:+13019006630" style="color:var(--blue);font-weight:600">(301) 900-6630</a>.</p>
+        <h2 style="font-size:24px;margin-bottom:10px">Visit request received!</h2>
+        <p style="color:var(--t-muted)">Thanks! Someone from DCTA DMV will reach out to set up your visit date and time. Need us sooner? Call <a href="tel:+13019006630" style="color:var(--blue);font-weight:600">(301) 900-6630</a>.</p>
       </div>
     </div>
     <p style="text-align:center;margin-top:18px;color:var(--t-muted)">431 N Frederick Ave, Suite 202, Gaithersburg, MD 20877</p>
@@ -117,6 +112,7 @@
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m18 15-6-6-6 6"/></svg>
 </button>
 <script>!function(){"use strict";var e=document.querySelector(".site-head");e&&((f=function(){e.classList.toggle("scrolled",window.scrollY>8)})(),window.addEventListener("scroll",f,{passive:!0}));var t=document.querySelector(".burger"),o=document.querySelector(".mobile-nav"),n=document.querySelector(".scrim");function c(e){o&&(o.classList.toggle("open",e),n&&n.classList.toggle("open",e),t&&t.classList.toggle("open",e),document.body.style.overflow=e?"hidden":"")}t&&t.addEventListener("click",function(){c(!o.classList.contains("open"))}),n&&n.addEventListener("click",function(){c(!1)}),document.querySelectorAll(".mobile-nav a, .mn-close").forEach(function(e){e.addEventListener("click",function(){c(!1)})});var a=document.querySelectorAll(".reveal");if("IntersectionObserver"in window&&a.length){var r=new IntersectionObserver(function(e){e.forEach(function(e){e.isIntersecting&&(e.target.classList.add("in"),r.unobserve(e.target))})},{threshold:.12,rootMargin:"0px 0px -8% 0px"});a.forEach(function(e){r.observe(e)})}else a.forEach(function(e){e.classList.add("in")});var i=!1;function s(){i||(i=!0,document.querySelectorAll("[data-count]").forEach(function(e){var t=parseFloat(e.getAttribute("data-count")),o=e.getAttribute("data-suffix")||"",n=null;requestAnimationFrame(function c(a){n||(n=a);var r=Math.min((a-n)/1400,1),i=1-Math.pow(1-r,3),s=t*i;e.textContent=(t%1==0?Math.round(s):s.toFixed(1))+o,r<1&&requestAnimationFrame(c)})}))}var l=document.querySelector("[data-counters]");if(l&&"IntersectionObserver"in window){var d=new IntersectionObserver(function(e){e.forEach(function(e){e.isIntersecting&&(s(),d.disconnect())})},{threshold:.4});d.observe(l)}else s();document.querySelectorAll(".acc-head").forEach(function(e){e.addEventListener("click",function(){var t=e.closest(".acc-item"),o=t.querySelector(".acc-body"),n=t.classList.contains("open"),c=t.closest("[data-accordion-single]");c&&!n&&c.querySelectorAll(".acc-item.open").forEach(function(e){e.classList.remove("open"),e.querySelector(".acc-body").style.maxHeight=null}),t.classList.toggle("open",!n),o.style.maxHeight=n?null:o.scrollHeight+"px"})}),document.querySelectorAll("form[data-lead-form]").forEach(function(e){var t=e.querySelector(".form-error");function o(o){t&&(t.textContent=o,t.hidden=!1);var n=e.querySelector("button[type=submit]");n&&(n.disabled=!1,n.textContent=n.getAttribute("data-label")||"Submit")}e.addEventListener("submit",function(n){if(n.preventDefault(),t&&(t.hidden=!0),e.checkValidity()){var c=e.getAttribute("action")||document.body.getAttribute("data-form-endpoint")||"",a=e.querySelector("button[type=submit]");if(a&&(a.setAttribute("data-label",a.textContent),a.disabled=!0,a.textContent="Sending..."),/^https:\/\//.test(c)){var r=Object.fromEntries(new FormData(e).entries()),i={contactName:(r.fullName||(r.firstName||"")+" "+(r.lastName||"")).trim(),contactEmail:r.email||(/@/.test(r.contact||"")?r.contact:""),contactPhone:r.phone||(r.contact&&!/@/.test(r.contact)?r.contact:""),data:{source:e.getAttribute("data-source")||"website",page:location.pathname,classChoice:r.classChoice||"",message:r.message||"",consent:r.consent?"yes":"no"}};fetch(c,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(i)}).then(function(t){if(!t.ok)throw new Error("bad status "+t.status);var o=(e.closest(".form-card")||e.parentElement).querySelector(".form-success");e.style.display="none",o&&o.classList.add("show")}).catch(function(){o("Sorry, that did not go through. Please call (301) 900-6630 or email info@dctadmv.com.")})}else o("Sorry, we could not send that right now. Please call (301) 900-6630 or email info@dctadmv.com.")}else e.reportValidity()})});var u=document.querySelector("[data-year]");u&&(u.textContent=(new Date).getFullYear());var m=document.getElementById("toTop");if(m){var f=function(){window.pageYOffset>600?m.classList.add("show"):m.classList.remove("show")};window.addEventListener("scroll",f,{passive:!0}),f(),m.addEventListener("click",function(){var e=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;window.scrollTo({top:0,behavior:e?"auto":"smooth"})})}}();</script>
+<script>!function(){var f=document.querySelector("form[data-visit-form]");if(!f)return;var t0=Date.now(),human=!1;["pointerdown","touchstart","keydown"].forEach(function(n){document.addEventListener(n,function(e){e.isTrusted&&(human=!0)},{passive:!0,capture:!0})});f.addEventListener("submit",function(e){var bad=f.website&&f.website.value||navigator.webdriver||!human||Date.now()-t0<3e3||/https?:|www\./i.test((f.message&&f.message.value)||"")||/https?:|www\./i.test(f.fullName.value);if(bad){e.preventDefault();e.stopImmediatePropagation();var er=f.querySelector(".form-error");er&&(er.textContent="Please call or text (301) 900-6630 and we will set up your visit.",er.hidden=!1)}},!0);var card=f.closest(".form-card"),ok=card&&card.querySelector(".form-success");if(ok&&"MutationObserver"in window){new MutationObserver(function(){if(ok.classList.contains("show")){setTimeout(function(){f.reset();var b=f.querySelector("button[type=submit]");b&&(b.disabled=!1,b.textContent=b.getAttribute("data-label")||"Request my visit");var er=f.querySelector(".form-error");er&&(er.hidden=!0,er.textContent="");ok.classList.remove("show");f.style.display="";t0=Date.now()},12e3)}}).observe(ok,{attributes:!0,attributeFilter:["class"]})}}();</script>
 <!-- DCTA AI Receptionist -->
 <script src="https://app.calldirector.ai/widget.js" data-widget="13623290" async></script>
 </body>
